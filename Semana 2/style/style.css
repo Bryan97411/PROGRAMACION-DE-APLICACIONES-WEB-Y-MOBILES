@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #429dcb, #b6c4d3);
+
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;             
+    justify-content: flex-end; 
+    align-items: center;      
+    padding: 10px 30px;
+}
+
+header a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.perfil {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /* Esto la hace circular */
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.logo {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.busqueda input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.botones {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #989696;
+    padding: 10px;
+}
